@@ -15,8 +15,7 @@ A professional personal portfolio website built to showcase my skills, experienc
 ---
 
 ## 🚀 Live Demo
-
-https://sriyanandas-portfolio-app.vercel.app
+(https://sriyanandas-portfolio-app.vercel.app/)
 
 ---
 
