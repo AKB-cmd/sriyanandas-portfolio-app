@@ -1,0 +1,50 @@
+Sriyananda Kuchimanchi
+Software Engineer
+
+Contact
+Email: sriyananda007@gmail.com
+Location: Hyderabad, Telangana, India
+
+Summary
+Software engineer with 3.5+ years' experience building large-scale distributed systems and backend services. Specialize in high-performance APIs and event-driven architectures. Experienced in Java, Spring Boot, Kafka, and cloud-native deployments. Proven track record improving performance, reliability, and operational efficiency.
+
+Experience
+
+People Tech Group Inc — Software Development Engineer I (FTC) — Amazon
+October 2025 - Present
+- Working on distributed systems and backend services focusing on scalability and reliability.
+
+Netenrich, Inc. — Software Engineer
+October 2024 - October 2025
+- Led transformation of a Python-based ticketing system by implementing an in-memory Bloom Filter, reducing validation time from 265s to 21s (~12.6×) while processing 1M+ daily tickets and cutting database load by 83%.
+- Implemented automated incident classification using Elasticsearch percolator queries and a Python rules engine, achieving ~92% accuracy and reducing triage latency by ~80%.
+- Architected a CompositePublisherAdapter for reliable multi-channel messaging (Kafka, HTTP, MessageQueue).
+
+Subex — Software Engineer
+November 2023 - October 2024
+- Led the migration of a service codebase from Java 8 to Java 21 to improve performance and adopt modern standards.
+- Built data pipelines that integrate with Kafka for efficient message processing and storage in PostgreSQL.
+
+Wipro — Project Engineer
+March 2023 - August 2023
+- Participated in requirement gathering and testing processes for enterprise projects.
+
+Projects
+- Project Name — Brief: add your project description and links. Tech: Tech 1, Tech 2, Tech 3.
+- Another Project — Brief: add your project description and links.
+- Side Project — Brief: add your project description and links.
+
+Skills
+- Languages: Java, Python, JavaScript
+- Frameworks & Tools: Spring Boot, Apache Kafka, Kafka Streams, Apache Camel
+- Databases: PostgreSQL, MongoDB, Redis, Elasticsearch
+- DevOps & Cloud: Docker, Git, ELK Stack, AWS
+- Architecture: Microservices, Distributed Systems, REST APIs, Event-Driven
+
+Education
+Bachelor of Engineering - Mechanical Engineering
+Sri Chandrasekharendra Saraswathi Vishwa Mahavidyalaya, Kancheepuram
+July 2018 - May 2022
+
+Notes
+- To use a formal PDF resume for job applications, replace this file with a PDF named /public/resume.pdf and update the link in the site.
