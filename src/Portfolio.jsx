@@ -291,10 +291,10 @@ const Portfolio = () => {
             <div className="space-y-8 md:space-y-10 order-2 lg:order-1">
               <div className="space-y-6">
                 <div className="space-y-2">
-                  <div className="text-sm font-semibold text-neutral-500 uppercase tracking-widest">
+                  <p className="text-base md:text-lg font-semibold text-neutral-500 uppercase tracking-widest">
                     Software Engineer
-                  </div>
-                  <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-black leading-[0.9] tracking-tighter bg-gradient-to-r from-black via-neutral-800 to-neutral-500 bg-clip-text text-transparent">
+                  </p>
+                  <h1 className="text-5xl md:text-6xl xl:text-7xl font-black leading-tight tracking-tighter bg-gradient-to-r from-black via-neutral-800 to-neutral-500 bg-clip-text text-transparent">
                     Sriyananda<br />
                     <span className="bg-gradient-to-r from-neutral-700 via-neutral-500 to-neutral-400 bg-clip-text text-transparent">
                       Kuchimanchi
@@ -303,7 +303,7 @@ const Portfolio = () => {
                 </div>
                 
                 <p
-                  className="text-base sm:text-lg md:text-xl text-neutral-600 leading-relaxed max-w-xl font-light"
+                  className="text-lg md:text-xl lg:text-2xl text-neutral-600 leading-relaxed md:leading-[1.7] max-w-2xl font-light"
                   aria-label={fullHeroText}
                 >
                   {heroText}
@@ -379,10 +379,10 @@ const Portfolio = () => {
       <section className="py-24 md:py-32 px-6 md:px-12 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-3xl">
-            <h2 className="text-sm font-bold uppercase tracking-widest mb-10 bg-gradient-to-r from-black via-neutral-800 to-neutral-500 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-widest mb-10 bg-gradient-to-r from-black via-neutral-800 to-neutral-500 bg-clip-text text-transparent">
               About
             </h2>
-              <div className="space-y-8 text-2xl md:text-3xl leading-relaxed font-light text-neutral-700">
+              <div className="space-y-8 text-lg md:text-xl leading-relaxed md:leading-[1.7] font-light text-neutral-700">
               <p>
                 I am a software engineer with 3.5+ years of experience building large-scale distributed systems and backend services. I specialize in high-performance APIs and have managed systems handling 10k+ requests per minute with 99.9% uptime.
               </p>
@@ -397,7 +397,7 @@ const Portfolio = () => {
       {/* Experience Section */}
       <section id="experience" className="py-24 md:py-32 px-6 md:px-12 bg-neutral-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-sm font-bold uppercase tracking-widest mb-20 bg-gradient-to-r from-black via-neutral-800 to-neutral-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-widest mb-20 bg-gradient-to-r from-black via-neutral-800 to-neutral-500 bg-clip-text text-transparent">
             Work Experience
           </h2>
           
@@ -415,8 +415,8 @@ const Portfolio = () => {
                   <div className="bg-white rounded-3xl border-2 border-neutral-200 p-8 md:p-10 hover:border-neutral-300 hover:shadow-xl transition-all">
                     <div className="flex flex-col md:flex-row md:items-start justify-between gap-6 mb-8 pb-8 border-b border-neutral-100">
                       <div className="flex-1">
-                        <h3 className="text-3xl font-black mb-3 text-neutral-900">{exp.company}</h3>
-                        <p className="text-xl font-semibold text-neutral-700 mb-3">{exp.role}</p>
+                        <h3 className="text-2xl md:text-3xl font-black mb-3 text-neutral-900">{exp.company}</h3>
+                        <p className="text-lg md:text-xl font-semibold text-neutral-700 mb-3">{exp.role}</p>
                         <div className="flex flex-wrap items-center gap-3 text-sm text-neutral-500">
                           <span className="flex items-center gap-1.5">
                             <MapPin className="w-4 h-4" />
@@ -432,7 +432,7 @@ const Portfolio = () => {
                     </div>
 
                     <div className="space-y-6 mb-8">
-                      <p className="text-neutral-700 leading-relaxed text-lg">
+                      <p className="text-neutral-700 leading-relaxed text-base md:text-lg">
                         {exp.description}
                       </p>
                       
@@ -441,7 +441,7 @@ const Portfolio = () => {
                           {exp.achievements.map((achievement, i) => (
                             <div key={i} className="flex gap-4 items-start">
                               <div className="w-1.5 h-1.5 rounded-full bg-neutral-400 mt-2.5 flex-shrink-0" />
-                              <p className="text-neutral-700 leading-relaxed flex-1">{achievement}</p>
+                              <p className="text-neutral-700 leading-relaxed text-base md:text-lg flex-1">{achievement}</p>
                             </div>
                           ))}
                         </div>
@@ -450,7 +450,7 @@ const Portfolio = () => {
                       {exp.keyAchievement && (
                         <div className="pt-4 border-t border-neutral-100">
                           <div className="text-sm font-semibold text-neutral-500 mb-2 uppercase tracking-wider">Key Achievement</div>
-                          <p className="text-neutral-700 leading-relaxed">{exp.keyAchievement}</p>
+                          <p className="text-neutral-700 leading-relaxed text-base md:text-lg">{exp.keyAchievement}</p>
                         </div>
                       )}
                     </div>
@@ -480,10 +480,10 @@ const Portfolio = () => {
       <section id="projects" className="py-24 md:py-32 px-6 md:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
-            <h2 className="text-sm font-bold uppercase tracking-widest mb-6 bg-gradient-to-r from-black via-neutral-800 to-neutral-500 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-widest mb-6 bg-gradient-to-r from-black via-neutral-800 to-neutral-500 bg-clip-text text-transparent">
               Featured Projects
             </h2>
-            <p className="text-neutral-500 text-lg">Showcasing my latest work and side projects</p>
+            <p className="text-neutral-500 text-xl md:text-2xl">Showcasing my latest work and side projects</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -509,7 +509,7 @@ const Portfolio = () => {
               >
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-2xl font-bold mb-3 group-hover:text-neutral-600 transition-colors">
+                    <h3 className="text-xl md:text-2xl font-bold mb-3 group-hover:text-neutral-600 transition-colors">
                       {project.title}
                     </h3>
                     <p className="text-neutral-600 leading-relaxed">
@@ -568,10 +568,10 @@ const Portfolio = () => {
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="mb-20">
-            <h2 className="text-sm font-bold uppercase tracking-widest mb-3 bg-gradient-to-r from-neutral-50 via-neutral-300 to-neutral-100 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-widest mb-3 bg-gradient-to-r from-neutral-50 via-neutral-300 to-neutral-100 bg-clip-text text-transparent">
               Technical Skills
             </h2>
-            <p className="text-neutral-400 text-lg">Technologies and tools I specialize in</p>
+            <p className="text-neutral-400 text-xl md:text-2xl">Technologies and tools I specialize in</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -652,16 +652,16 @@ const Portfolio = () => {
       {/* Education */}
       <section className="py-32 px-6 md:px-12 bg-neutral-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-sm font-bold uppercase tracking-widest mb-12 bg-gradient-to-r from-black via-neutral-800 to-black bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-widest mb-12 bg-gradient-to-r from-black via-neutral-800 to-black bg-clip-text text-transparent">
             Education
           </h2>
           
           <div className="bg-white rounded-2xl border-2 border-neutral-200 p-8 md:p-10 max-w-3xl">
-            <h3 className="text-2xl font-bold mb-2">Bachelor of Engineering - Mechanical Engineering</h3>
-            <p className="text-lg text-neutral-700 mb-3">
+            <h3 className="text-xl md:text-2xl font-bold mb-2">Bachelor of Engineering - Mechanical Engineering</h3>
+            <p className="text-base md:text-lg text-neutral-700 mb-3">
               Sri Chandrasekharendra Saraswathi Vishwa Mahavidyalaya, Kancheepuram
             </p>
-            <p className="text-neutral-500">July 2018 - May 2022</p>
+            <p className="text-neutral-500 text-base md:text-lg">July 2018 - May 2022</p>
           </div>
         </div>
       </section>
@@ -681,18 +681,52 @@ const Portfolio = () => {
       {/* Contact / Footer */}
       <footer className="py-24 px-6 md:px-12 bg-gradient-to-b from-neutral-900 to-black text-neutral-50">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 mb-20">
-            <div className="space-y-8">
-              <h2 className="text-5xl md:text-6xl font-black tracking-tight leading-tight bg-gradient-to-r from-neutral-50 via-neutral-300 to-neutral-50 bg-clip-text text-transparent">
-                Let's build<br />something great
-              </h2>
-              <p className="text-neutral-400 text-xl leading-relaxed max-w-md">
-                I'm open to exciting opportunities and collaborative projects. Let's connect and create something impactful together.
-              </p>
-            </div>
-            
+          <div className="mb-20 text-center">
+            <h2 className="text-6xl md:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-neutral-50 via-neutral-300 to-neutral-50 bg-clip-text text-transparent">
+              Let's build<br />something great
+            </h2>
+            <p className="text-neutral-400 text-2xl leading-relaxed max-w-md mx-auto mt-8">
+              I'm always open to new opportunities and collaborations. Feel free to reach out!
+            </p>
           </div>
-          
+
+          <div className="flex justify-center gap-6 mb-12">
+            <a
+              href="mailto:sriyananda007@gmail.com"
+              className="inline-flex items-center justify-center w-12 h-12 bg-neutral-900 text-neutral-50 rounded-full hover:bg-neutral-800 transition-all hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
+              title="Email"
+            >
+              <Mail className="w-5 h-5" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sriyananda-kuchimanchi-1562011b3/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-12 h-12 border-2 border-neutral-200 rounded-full hover:border-neutral-300 hover:bg-neutral-100 transition-all focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
+              title="LinkedIn"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
+            <a
+              href="https://github.com/sriyananda7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-12 h-12 border-2 border-neutral-200 rounded-full hover:border-neutral-300 hover:bg-neutral-100 transition-all focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
+              title="GitHub"
+            >
+              <Github className="w-5 h-5" />
+            </a>
+            <a
+              href="https://leetcode.com/u/sriyananda007/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-12 h-12 border-2 border-neutral-200 rounded-full hover:border-neutral-300 hover:bg-neutral-100 transition-all focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
+              title="LeetCode"
+            >
+              <Code className="w-5 h-5" />
+            </a>
+          </div>
+
           <div className="pt-12 border-t border-neutral-800 text-center">
             <p
               className="text-neutral-50 cursor-pointer select-none"
