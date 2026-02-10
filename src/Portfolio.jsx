@@ -702,7 +702,7 @@ const Portfolio = () => {
               href="https://www.linkedin.com/in/sriyananda-kuchimanchi-1562011b3/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center w-12 h-12 border-2 border-neutral-200 rounded-full hover:border-neutral-300 hover:bg-neutral-100 transition-all focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
+              className="inline-flex items-center justify-center w-12 h-12 border-2 border-neutral-200 rounded-full hover:border-neutral-900 hover:bg-neutral-100 transition-all focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
               title="LinkedIn"
             >
               <Linkedin className="w-5 h-5" />
@@ -711,7 +711,7 @@ const Portfolio = () => {
               href="https://github.com/sriyananda7"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center w-12 h-12 border-2 border-neutral-200 rounded-full hover:border-neutral-300 hover:bg-neutral-100 transition-all focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
+              className="inline-flex items-center justify-center w-12 h-12 border-2 border-neutral-200 rounded-full hover:border-neutral-900 hover:bg-neutral-100 transition-all focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
               title="GitHub"
             >
               <Github className="w-5 h-5" />
@@ -720,7 +720,7 @@ const Portfolio = () => {
               href="https://leetcode.com/u/sriyananda007/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center w-12 h-12 border-2 border-neutral-200 rounded-full hover:border-neutral-300 hover:bg-neutral-100 transition-all focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
+              className="inline-flex items-center justify-center w-12 h-12 border-2 border-neutral-200 rounded-full hover:border-neutral-900 hover:bg-neutral-100 transition-all focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2"
               title="LeetCode"
             >
               <Code className="w-5 h-5" />
