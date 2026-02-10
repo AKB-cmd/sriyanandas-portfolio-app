@@ -159,7 +159,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-50 text-neutral-900">
+    <div className="min-h-screen bg-neutral-50 text-neutral-900 overflow-x-hidden">
       
       {/* Navigation */}
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-colors ${scrollY > 20 ? 'bg-white/95 backdrop-blur-sm shadow-sm border-b border-neutral-200/60' : 'bg-neutral-50/90 backdrop-blur-xl border-b border-neutral-200/50'}`}>
@@ -366,7 +366,7 @@ const Portfolio = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
               </div>
 
-              <div className="absolute -bottom-6 -right-4 sm:-right-6 bg-white rounded-2xl shadow-xl border border-neutral-200 p-4 sm:p-6 max-w-xs">
+              <div className="absolute -bottom-6 right-2 sm:-right-6 bg-white rounded-2xl shadow-xl border border-neutral-200 p-4 sm:p-6 max-w-xs ">
                 <div className="text-sm font-semibold text-neutral-900 mb-1">Currently</div>
                 <div className="text-xs text-neutral-600">Software Development Engineer at People Tech Group (Amazon)</div>
               </div>
@@ -528,7 +528,7 @@ const Portfolio = () => {
                     ))}
                   </div>
 
-                  <div className="flex gap-3 pt-2 flex-nowrap">
+                  <div className="flex gap-3 pt-2 flex-wrap">
                     {project.link && (
                       <a 
                         href={project.link}
